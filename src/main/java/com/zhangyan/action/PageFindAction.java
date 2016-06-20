@@ -22,6 +22,7 @@ public class PageFindAction {
 	
 	
 	@Autowired
+	
 	private JobService jobService;
 	
 	protected final Log log = LogFactory.getLog(getClass());
