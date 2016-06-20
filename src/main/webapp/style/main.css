@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*公用*/
+.comWidth{width:1000px; margin-left:auto; margin-right:auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+.hide{display:none;}
+.show{display:block;}
+.box{width:100%;text-align:center;}
+/*头部*/
+.top{height:250px;}
+.topbar{height:30px;border: 1px solid #eee;background-color: #eee}
+.topleft{
+	height:30px;
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    float:left;
+    padding-top:5px;
+    }
+#bannerbox{height:200px;position: relative;overflow:hidden;width:1000px;margin-left:auto; margin-right:auto;}
+.mainBox{height:540px;margin-top:5px;}
+.serch{height:50px;margin-left:auto;margin-right:auto;width:900px; }
+.content{height:530px;margin:10px 10px;}
+.footer{height:100px; background:none repeat scroll 0% 0% #F0F0F0;}
+.footer p{
+	font:13px/18px "Microsoft YaHei", "微软雅黑";
+	position:relative; top:20px;
+}
+.search-form{height:50px;} 
+.serch-left{float:left;}
+.serch-right{float:left;}
+.input1{width:100px;}
+.input2{width:100px;}
+.input3{width:300px;}
+.search-button{background-image: url(../images/search-button.png);width:29px;height:29px;margin-top:10px;float:right;}
+input{height:50px;font:15px/35px "Microsoft YaHei", "微软雅黑"}
+b{font:18px/35px "Microsoft YaHei", "微软雅黑" ;color:red;}
+
+
+.activity{width:66.0%;height:100%;float:left;border-left: 1px solid #888;margin-left:2px;}
+
+.activity1 li {
+	height:30px;
+	font:16px/24px "Microsoft YaHei", "微软雅黑";
+	border-bottom: 1px dashed #888;
+	margin-left:2px;
+	text-align:left;
+	text-indent: 15px;
+	padding-top:10px;
+	background: url('../images/ico-1.gif') no-repeat scroll 4px 20px transparent;
+}
+.activity1 li span{
+	float :right;
+	margin-right:20px;
+	color:#00CED1;
+}
+.activity1 li b{
+	font:16px/24px "Microsoft YaHei", "微软雅黑";
+	float :right;
+	margin-right:300px;
+	color:#00CED1;
+}
+.activity1 a:hover{color:red;}
+.activity1 a{color:#00CED1;}
+
+.list-page{
+	height:50px;
+	width:100%;
+	margin-top:10px;
+}
+.list-page ul li{
+	float:left;
+	padding-left:10px;
+	padding-top:10px;
+	color:red;
+}
+.list-page ul li a{
+	color:red;
+}
+.list-page ul span li {
+	font-size:15px;
+	color:red;
+}
+.list-page form li{
+	padding-top:8px;
+}
+.list-page form li input{
+	height:35px;
+	width:20px;
+	color:red;
+}
