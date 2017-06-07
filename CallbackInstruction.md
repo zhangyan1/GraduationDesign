@@ -29,10 +29,10 @@
 
 回调模式下发送给业务方的数据统一使用`appSecret`作为`Key`对事件内容进行AES加密,
 并对加密后的数据做一次签名校验:
-`appSecret=应用密钥`;
-`appToken=应用token`;
-`encryptData=AES128Encrypt(appSecret, eventData)`;
-`signature=md5(encrypt=encryptData&nonce=nonce& timestamp=timestamp&token=appToken)`;
+* `appSecret=应用密钥`;
+* `appToken=应用token`;
+* `encryptData=AES128Encrypt(appSecret, eventData)`;
+* `signature=md5(encrypt=encryptData&nonce=nonce& timestamp=timestamp&token=appToken)`;
 
 ### 回调模式的数据解密流程
 1.解析`request.body`中的`json`数据:
